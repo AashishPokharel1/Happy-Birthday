@@ -70,7 +70,7 @@ body{
 
 #about{
     width: 100%;
-    padding:0px 0px;
+    padding:50px 0px;
 }
 
 .about-text{
@@ -79,9 +79,23 @@ body{
 
 .main{
     width: 1130px;
-    max-width: 95%;
+    max-width: 100%;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+.about-text h1{
+    color: #a4133c;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h3{
+    color: #a4133c;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+
 }
