@@ -6,6 +6,7 @@
     list-style: none;
     font-family: cursive;
 }
+
 body{
     background-color: #fb6f92;
 }
@@ -98,4 +99,41 @@ body{
     text-transform: capitalize;
     margin-bottom: 25px;
 
+}
+
+.slider{
+    margin: 0;
+    padding: 0;
+    padding-top: 70px;
+    height: 130vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-slider{
+    width: 800px;
+    height: 1000px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.slide{
+    width: 500%;
+    height: 500px;
+    display: flex;
+}
+
+.slide input{
+    display: none;
+}
+
+.st{
+    width: 20%;
+    transition: 2s;
+}
+
+.st img{
+    width: 800px;
+    height: 500ox;
 }
