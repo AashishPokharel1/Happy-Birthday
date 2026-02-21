@@ -15,14 +15,14 @@ body{
     top: 0;
     left: 0;
     z-index: 1000;
-    width: 100%;
+    width: 50%;
 
 }
 .navlinks{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 35px 10%;
+    padding: 50px 10%;
     transition: 0.5s ease;
 }
 
@@ -30,6 +30,7 @@ body{
     display: inline-block;
     color: #a4133c;
     text-transform: capitalize;
+
 }
 
 .navlinks li a:hover{
@@ -44,7 +45,7 @@ body{
     background-position: center;
     background-size: cover;
     position: relative;
-    padding: 0 10%;
+    padding: 0 4%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     align-items: center;
@@ -65,4 +66,22 @@ body{
     font-size: 20px;
     line-height: 45px;
     margin-top: 20px;
+}
+
+#about{
+    width: 100%;
+    padding:0px 0px;
+}
+
+.about-text{
+    width: 550px;
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
