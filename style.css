@@ -289,18 +289,21 @@ body{
 }
 
 .happy{
-    top: 198px;
+    top: 210px;
+    font-family:'Brush Script MT', cursive ;
 }
 
 .toyou{
-    top: 198px;
+    top: 210px;
+    font-family:'Brush Script MT', cursive ;
 } 
 
 .bday{
     position: relative;
     font-size: 35px;
     text-align: center;
-    top: 198px;
+    top: 210px;
+    font-family:'Brush Script MT', cursive ;
 }
 
 .wrap-deco{
@@ -443,7 +446,7 @@ body{
 
 .wishes{
     position: relative;
-    top: -20px;
+    top: 0px;
     margin: 25px;
 }
 
