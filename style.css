@@ -102,6 +102,8 @@ body{
 }
 
 .slider{
+    background-image: url(pexels-nietjuhart-776635.jpg);
+    background-size: cover;
     margin: 0;
     padding: 0;
     padding-top: 70px;
@@ -112,8 +114,9 @@ body{
 }
 
 .img-slider{
+    position: relative;
     width: 800px;
-    height: 1000px;
+    height: 900px;
     border-radius: 10px;
     overflow: hidden;
 }
@@ -135,5 +138,79 @@ body{
 
 .st img{
     width: 800px;
-    height: 500ox;
+    height: 1000px;
+}
+
+.nav-m{
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+    margin-top: 0;
+    justify-content: center;
+    gap: 30px ;
+    display: flex;
+    z-index: 10;
+}
+
+.m-btn{
+    border: 2px solid #a4133c;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.m-btn:not(:last-child){
+    margin-right: 30px;
+}
+.m-btn:hover{
+    background-color: #a4133c;
+}
+
+#radio1:checked ~.first{
+    margin-left: 0;
+}
+
+#radio2:checked ~.first{
+    margin-left: -20%;
+}
+
+#radio3:checked ~.first{
+    margin-left: -40%;
+}
+#radio4:checked ~.first{
+    margin-left: -60%;
+}
+
+.nav-auto{
+    display: none;
+}
+
+.nav-auto div{
+    border: 2px solid #a4133c;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.nav-auto div:not(:last-child){
+    margin-right: 30px;
+    justify-content: center;
+}
+
+#radio1:checked ~.nav-auto .a-b1{
+    background-color: #a4133c;
+}
+
+#radio2:checked ~.nav-auto .a-b1{
+    background-color: #a4133c;
+}
+
+#radio3:checked ~.nav-auto .a-b1{
+    background-color: #a4133c;
+}
+
+#radio4:checked ~.nav-auto .a-b1{
+    background-color: #a4133c;
 }
