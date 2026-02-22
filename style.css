@@ -42,7 +42,7 @@ body{
 #banner1{
     height: 100vh;
     width: 100%;
-    background-image: url(/Images/bng.jpg);
+    background-image: url(Images/bng.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
