@@ -214,3 +214,28 @@ body{
 #radio4:checked ~.nav-auto .a-b1{
     background-color: #a4133c;
 }
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.birthdayCard{
+    position: relative;
+    width: 250px;
+    height: 350px;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transform: perspective(2500px);
+    transition: .4s;
+}
+
+.birthdayCard:hover{
+    transform: perspective(2500px) rotate(5deg);
+    box-shadow: inset 100px 20px 100px rgba(0,0,0,.15), 0 10px 100px rgba(0,0,0,.3);
+}
+
+.birthdayCard:hover .cardFront{
+    
+}
